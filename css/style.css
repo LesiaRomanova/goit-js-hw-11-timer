@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.timer {
+  width: 500px;
+  min-height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7a737329;
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+}
+
+.field .value {
+  min-height: 100px;
+  min-width: 100px;
+  padding: 1px;
+  background-color: darkgray;
+  color: #fff;
+  border-radius: 25%;
+  font-size: 45px;
+  line-height: 100px;
+}
